@@ -8,9 +8,9 @@ export default function Forms() {
     password: "",
   });
 
-  let handleInputChange = () => {
+  let handleInputChange = (event) => {
     SetFormData((currData) => {
-      return { ...currData, [event.target.name]: [event.target.value] };
+      return { ...currData, [event.target.name]: event.target.value};
     });
   };
 

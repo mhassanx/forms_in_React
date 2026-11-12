@@ -1,8 +1,9 @@
 import "./App.css";
+import CommentForms from "./CommentForms";
 import Forms from "./Forms";
 
 function App() {
-  return <Forms />;
+  return <CommentForms />;
 }
 
 export default App;
